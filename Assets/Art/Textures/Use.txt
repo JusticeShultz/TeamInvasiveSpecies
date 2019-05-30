@@ -1,0 +1,7 @@
+This is where textures will go for certain assets.
+
+It's recommended you put each texture for 1 object in its own folder.
+
+E.g.
+
+Have a folder named "Player" and all player textures go there.

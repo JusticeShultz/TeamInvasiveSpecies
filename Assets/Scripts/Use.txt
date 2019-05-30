@@ -1,0 +1,4 @@
+Programmers should put each script set in its own folder.
+
+
+E.g. "PlayerController" & "PlayerShooting" would go in a folder named "Player".

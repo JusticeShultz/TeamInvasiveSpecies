@@ -1,0 +1,3 @@
+This file is a placeholder that will be marked for deletion in Perforce eventually.
+
+Perforce will not upload empty files so these exist for that reason.

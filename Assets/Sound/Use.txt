@@ -1,0 +1,7 @@
+All sound assets should go here.
+
+Sound should be divided up into folders depending on what it is.
+
+E.g.
+
+"PlayerShoot" and "PlayerDamaged" goes in a folder named "Player"

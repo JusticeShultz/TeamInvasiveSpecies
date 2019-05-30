@@ -1,0 +1,11 @@
+This is where models will go for certain assets.
+
+It's recommended you put each genre in its own folder.
+
+E.g.
+
+Have a folder named "Eye Candy" and all eye candy models go there.
+
+or
+
+Have a folder named "Enemies" and have a seperate folder for each enemy in there with each enemy model.
