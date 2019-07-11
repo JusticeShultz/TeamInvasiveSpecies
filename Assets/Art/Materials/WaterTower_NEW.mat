@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Fox_Crispy
-  m_Shader: {fileID: 4800000, guid: 6bd5c18707677a841a52b8ce5f866e4d, type: 3}
+  m_Name: WaterTower_NEW
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: d30b9c1f5832532449502bbc8d36b99c, type: 3}
+        m_Texture: {fileID: 2800000, guid: ec61dc80f3d4a6a4889e0ea8b8a7d29a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -39,11 +39,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 09784526dee23c84c810a71de3c8f198, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a37f853e798c70429333f0d375830ae, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: b5555e00bee759548bb98b68ddadf49a, type: 3}
+        m_Texture: {fileID: 2800000, guid: bf11c33533d3be346b75e1f8a6f4a129, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.8113208, g: 0.7309541, b: 0.7309541, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
