@@ -356,9 +356,11 @@ public class PlayerController : MonoBehaviour
         #endregion
     }
 
-    public void TakeDamage(float Damage, Vector3 HitPoint)
+    public void TakeDamage(float Damage, Vector3 HitPoint, bool IsMushroom = false)
     {
-        BloodPool.Splatter(HitPoint, 25, BloodPool.BloodColor.Red);
+        if(!IsMushroom)
+            BloodPool.Splatter(HitPoint, 25, BloodPool.BloodColor.Red);
+        
         CurrentHealth -= Mathf.Clamp(Damage - PlayerArmor, 0, 100000);
 
         #region Health Management

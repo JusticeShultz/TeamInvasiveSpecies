@@ -23,7 +23,7 @@ public class WinCondition : MonoBehaviour
     {
         if(PlayerController.Player_Controller)
         {
-            if(PlayerController.Player_Controller.HMDPos.transform.position.y < WaterObject.transform.position.y - 0.95f)
+            if(PlayerController.Player_Controller.HMDPos.transform.position.y < WaterObject.transform.position.y - 1.95f)
             {
                 OutOfWaterVolume.SetActive(false);
                 InWaterVolume.SetActive(true);

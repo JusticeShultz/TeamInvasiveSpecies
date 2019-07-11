@@ -18,6 +18,7 @@ public class RangedAI : MonoBehaviour
 
     [SerializeField] PlayerController playerReference;
     //anyone can change these
+    public Animator animator;
     [SerializeField] float attackTimerMax = 1;
     [SerializeField] float wanderTimerMax = 2.5f;
     [SerializeField] float attackRadius = 1;
@@ -38,7 +39,10 @@ public class RangedAI : MonoBehaviour
         pf = GetComponent<NavMeshAgent>();
         rb = GetComponent<Rigidbody>();
         c = GetComponent<Collider>();
+        //pf.updateRotation = false;
+        //transform.rotation = Quaternion.LookRotation(pf.velocity);
         SwitchToHide();
+        animator.SetBool("Moving", true);
     }
 
     // Update is called once per frame
@@ -199,11 +203,11 @@ public class RangedAI : MonoBehaviour
     {
         stateUpdate = GetToTree;
     }
-    //MELEE ATTACK
     void RangedAttack()
     {
+        
         pf.isStopped = true;
-        transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.LookRotation(playerReference.transform.position- transform.position),Time.deltaTime);
+        //transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.LookRotation(playerReference.transform.position- transform.position),Time.deltaTime);
         AttackTimer -= Time.deltaTime;
         if (AttackTimer <= 0)
         {
@@ -223,14 +227,18 @@ public class RangedAI : MonoBehaviour
     {
         if (AttackTimer <= 0)
         {
+            animator.SetBool("Moving", true);
             SwitchToGetToTree();
         }
     }
     void SwitchToRangedAttack()
     {
+        animator.SetBool("Moving",false);
+        animator.SetTrigger("Attack");
         AttackTimer = attackTimerMax;
         stateUpdate = RangedAttack;
     }
+    #region
     /*
      * The MIT License (MIT)
 
@@ -312,6 +320,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         else //determinant = 0; one intercept path, pretty much never happens
             return Mathf.Max(-b / (2f * a), 0f); //don't shoot back in time
     }
+    #endregion LeadShot LeadShot
+
     bool CanSeePlayer()
     {
 
