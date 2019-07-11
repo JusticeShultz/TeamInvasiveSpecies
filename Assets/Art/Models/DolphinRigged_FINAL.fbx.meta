@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 1cdd9045d454fd045991e6918e6776c5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Backside
+    100002: Belly_Jiggle
+    100004: Center_Of_Mass
+    100006: //RootNode
+    100008: Head
+    100010: Head_Fin
+    100012: Head_Top
+    100014: Jaw_Bottom
+    100016: Jaw_Topside
+    100018: Left_Flipper_Arm
+    100020: Left_Flipper_Elbow
+    100022: Left_Flipper_Hand
+    100024: Left_Flipper_Shoulder
+    100026: Left_Foot
+    100028: Left_Knee
+    100030: Left_Leg
+    100032: Left_Thigh1
+    100034: Mouth
+    100036: Nose
+    100038: RetopoGroup1
+    100040: Right_Flipper_Arm
+    100042: Right_Flipper_Elbow
+    100044: Right_Flipper_Hand
+    100046: Right_Flipper_Shoulder1
+    100048: Right_Foot
+    100050: Right_Knee
+    100052: Right_Leg
+    100054: Right_Thigh
+    100056: Spine1
+    100058: Spine2
+    100060: Spine3
+    100062: Tail
+    100064: Tail_Fins
+    100066: TailDetail0
+    100068: TailDetail1
+    400000: Backside
+    400002: Belly_Jiggle
+    400004: Center_Of_Mass
+    400006: //RootNode
+    400008: Head
+    400010: Head_Fin
+    400012: Head_Top
+    400014: Jaw_Bottom
+    400016: Jaw_Topside
+    400018: Left_Flipper_Arm
+    400020: Left_Flipper_Elbow
+    400022: Left_Flipper_Hand
+    400024: Left_Flipper_Shoulder
+    400026: Left_Foot
+    400028: Left_Knee
+    400030: Left_Leg
+    400032: Left_Thigh1
+    400034: Mouth
+    400036: Nose
+    400038: RetopoGroup1
+    400040: Right_Flipper_Arm
+    400042: Right_Flipper_Elbow
+    400044: Right_Flipper_Hand
+    400046: Right_Flipper_Shoulder1
+    400048: Right_Foot
+    400050: Right_Knee
+    400052: Right_Leg
+    400054: Right_Thigh
+    400056: Spine1
+    400058: Spine2
+    400060: Spine3
+    400062: Tail
+    400064: Tail_Fins
+    400066: TailDetail0
+    400068: TailDetail1
+    2100000: lambert1
+    4300000: RetopoGroup1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: RetopoGroup1
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 0
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.25
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Center_Of_Mass
+    rootMotionBoneRotation: {x: 0.48948213, y: -0.5103012, z: -0.48948213, w: 0.5103012}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

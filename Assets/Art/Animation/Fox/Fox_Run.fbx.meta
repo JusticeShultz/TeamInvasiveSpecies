@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: c7454b89bf71cec4186aee2d122d50c5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CC_COG
+    100002: CC_HULA
+    100004: CC_L_EAR_01
+    100006: CC_L_EAR_02
+    100008: CC_L_ELBOW
+    100010: CC_L_FOOT
+    100012: CC_L_WRIST
+    100014: CC_NECK
+    100016: CC_R_EAR_01
+    100018: CC_R_EAR_02
+    100020: CC_R_ELBOW
+    100022: CC_R_FOOT
+    100024: CC_R_KNEE
+    100026: CC_R_KNEE1
+    100028: CC_R_WRIST
+    100030: CC_SNOUT_01
+    100032: CC_SNOUT_02
+    100034: CC_SPINE
+    100036: CC_TAIL_01
+    100038: CC_TAIL_02
+    100040: CC_TAIL_03
+    100042: Fox_Low:RetopoGroup1
+    100044: //RootNode
+    100046: HEAD
+    100048: IK_L_ARM
+    100050: IK_L_LEG
+    100052: IK_R_ARM
+    100054: IK_R_LEG
+    100056: jnt_BUTT
+    100058: jnt_COG
+    100060: jnt_HEAD_END
+    100062: jnt_HULA
+    100064: jnt_L_ANKLE
+    100066: jnt_L_CLAVICLE1
+    100068: jnt_L_EAR_01
+    100070: jnt_L_EAR_02
+    100072: jnt_L_EAR_03
+    100074: jnt_L_ELBOW
+    100076: jnt_L_FOOT
+    100078: jnt_L_HAND
+    100080: jnt_L_KNEE
+    100082: jnt_L_SHOULDER
+    100084: jnt_L_THIGH
+    100086: jnt_L_TOE
+    100088: jnt_L_WRIST
+    100090: jnt_NECK
+    100092: jnt_NOSE
+    100094: jnt_R_ANKLE
+    100096: jnt_R_CLAVICLE
+    100098: jnt_R_EAR_01
+    100100: jnt_R_EAR_02
+    100102: jnt_R_EAR_03
+    100104: jnt_R_ELBOW
+    100106: jnt_R_FOOT
+    100108: jnt_R_HAND
+    100110: jnt_R_KNEE
+    100112: jnt_R_SHOULDER
+    100114: jnt_R_THIGH
+    100116: jnt_R_TOE
+    100118: jnt_R_WRIST
+    100120: jnt_SNOUT_01
+    100122: jnt_SNOUT_02
+    100124: jnt_SPINE_01
+    100126: jnt_TAIL_01
+    100128: jnt_TAIL_02
+    100130: jnt_TAIL_03
+    400000: CC_COG
+    400002: CC_HULA
+    400004: CC_L_EAR_01
+    400006: CC_L_EAR_02
+    400008: CC_L_ELBOW
+    400010: CC_L_FOOT
+    400012: CC_L_WRIST
+    400014: CC_NECK
+    400016: CC_R_EAR_01
+    400018: CC_R_EAR_02
+    400020: CC_R_ELBOW
+    400022: CC_R_FOOT
+    400024: CC_R_KNEE
+    400026: CC_R_KNEE1
+    400028: CC_R_WRIST
+    400030: CC_SNOUT_01
+    400032: CC_SNOUT_02
+    400034: CC_SPINE
+    400036: CC_TAIL_01
+    400038: CC_TAIL_02
+    400040: CC_TAIL_03
+    400042: Fox_Low:RetopoGroup1
+    400044: //RootNode
+    400046: HEAD
+    400048: IK_L_ARM
+    400050: IK_L_LEG
+    400052: IK_R_ARM
+    400054: IK_R_LEG
+    400056: jnt_BUTT
+    400058: jnt_COG
+    400060: jnt_HEAD_END
+    400062: jnt_HULA
+    400064: jnt_L_ANKLE
+    400066: jnt_L_CLAVICLE1
+    400068: jnt_L_EAR_01
+    400070: jnt_L_EAR_02
+    400072: jnt_L_EAR_03
+    400074: jnt_L_ELBOW
+    400076: jnt_L_FOOT
+    400078: jnt_L_HAND
+    400080: jnt_L_KNEE
+    400082: jnt_L_SHOULDER
+    400084: jnt_L_THIGH
+    400086: jnt_L_TOE
+    400088: jnt_L_WRIST
+    400090: jnt_NECK
+    400092: jnt_NOSE
+    400094: jnt_R_ANKLE
+    400096: jnt_R_CLAVICLE
+    400098: jnt_R_EAR_01
+    400100: jnt_R_EAR_02
+    400102: jnt_R_EAR_03
+    400104: jnt_R_ELBOW
+    400106: jnt_R_FOOT
+    400108: jnt_R_HAND
+    400110: jnt_R_KNEE
+    400112: jnt_R_SHOULDER
+    400114: jnt_R_THIGH
+    400116: jnt_R_TOE
+    400118: jnt_R_WRIST
+    400120: jnt_SNOUT_01
+    400122: jnt_SNOUT_02
+    400124: jnt_SPINE_01
+    400126: jnt_TAIL_01
+    400128: jnt_TAIL_02
+    400130: jnt_TAIL_03
+    2100000: lambert2
+    4300000: Fox_Low:RetopoGroup1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Fox_Low:RetopoGroup1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

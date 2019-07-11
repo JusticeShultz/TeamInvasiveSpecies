@@ -392,10 +392,10 @@ namespace Valve.VR
             }
 
             // Ensure various settings to minimize latency.
-            Application.targetFrameRate = -1;
+            //Application.targetFrameRate = -1;
             Application.runInBackground = true; // don't require companion window focus
             QualitySettings.maxQueuedFrames = -1;
-            QualitySettings.vSyncCount = 0; // this applies to the companion window
+            //QualitySettings.vSyncCount = 0; // this applies to the companion window
 
             if (SteamVR.settings.lockPhysicsUpdateRateToRenderFrequency && Time.timeScale > 0.0f)
             {

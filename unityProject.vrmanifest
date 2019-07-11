@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.teaminvasivespecies.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\s189081\\Perforce\\s189081_SEA-7E50DB_1502\\teaminvasivespecies\\TeamInvasiveSpecies\\actions.json",
+      "action_manifest_path": "C:\\Users\\s189081\\Perforce\\s189081_SEA-7E50DB_4349\\teaminvasivespecies\\TeamInvasiveSpecies\\actions.json",
       "strings": {
         "en_us": {
           "name": "TeamInvasiveSpecies [Testing]"

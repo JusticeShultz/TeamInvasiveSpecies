@@ -363,7 +363,7 @@ namespace Valve.VR.InteractionSystem
 
 
 		//-------------------------------------------------
-		public void Draw2DDebug()
+		/*public void Draw2DDebug()
 		{
 			if ( !allowToggleTo2D )
 				return;
@@ -389,7 +389,7 @@ namespace Valve.VR.InteractionSystem
 					ActivateRig( rigSteamVR );
 				}
 			}
-		}
+		}*/
 
 
 		//-------------------------------------------------
