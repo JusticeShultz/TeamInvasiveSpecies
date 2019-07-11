@@ -1,46 +1,16 @@
 fileFormatVersion: 2
-guid: 6c4628dbcecc94449b2b3dca738ce96a
+guid: 3ad16ebc701d6a54fa3e7e7a2a493ea5
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cave_pPlane2
-    100004: Cave_pSphere1
-    100006: Cave_pSphere2
-    100008: Cave_pSphere4
-    100010: Cave_pSphere5
-    100012: pCylinder2_Cave
-    400000: //RootNode
-    400002: Cave_pPlane2
-    400004: Cave_pSphere1
-    400006: Cave_pSphere2
-    400008: Cave_pSphere4
-    400010: Cave_pSphere5
-    400012: pCylinder2_Cave
-    2100000: Cave_pPlane2Mat
-    2100002: Cave_pSphere1Mat
-    2100004: Cave_pSphere2Mat
-    2100006: Cave_pSphere4Mat
-    2100008: Cave_pSphere5Mat
-    2100010: pCylinder2_CaveMat
-    2300000: Cave_pPlane2
-    2300002: Cave_pSphere1
-    2300004: Cave_pSphere2
-    2300006: Cave_pSphere4
-    2300008: Cave_pSphere5
-    2300010: pCylinder2_Cave
-    3300000: Cave_pPlane2
-    3300002: Cave_pSphere1
-    3300004: Cave_pSphere2
-    3300006: Cave_pSphere4
-    3300008: Cave_pSphere5
-    3300010: pCylinder2_Cave
-    4300000: Cave_pPlane2
-    4300002: Cave_pSphere1
-    4300004: Cave_pSphere2
-    4300006: Cave_pSphere4
-    4300008: Cave_pSphere5
-    4300010: pCylinder2_Cave
+    100000: polySurface11
+    100002: //RootNode
+    400000: polySurface11
+    400002: //RootNode
+    2100000: polySurface11Mat
+    2300000: polySurface11
+    3300000: polySurface11
+    4300000: polySurface11
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -72,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.5
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

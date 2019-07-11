@@ -1,46 +1,16 @@
 fileFormatVersion: 2
-guid: 6c4628dbcecc94449b2b3dca738ce96a
+guid: 53651678391e72548b9191bd19500c63
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cave_pPlane2
-    100004: Cave_pSphere1
-    100006: Cave_pSphere2
-    100008: Cave_pSphere4
-    100010: Cave_pSphere5
-    100012: pCylinder2_Cave
+    100002: pTorus5
     400000: //RootNode
-    400002: Cave_pPlane2
-    400004: Cave_pSphere1
-    400006: Cave_pSphere2
-    400008: Cave_pSphere4
-    400010: Cave_pSphere5
-    400012: pCylinder2_Cave
-    2100000: Cave_pPlane2Mat
-    2100002: Cave_pSphere1Mat
-    2100004: Cave_pSphere2Mat
-    2100006: Cave_pSphere4Mat
-    2100008: Cave_pSphere5Mat
-    2100010: pCylinder2_CaveMat
-    2300000: Cave_pPlane2
-    2300002: Cave_pSphere1
-    2300004: Cave_pSphere2
-    2300006: Cave_pSphere4
-    2300008: Cave_pSphere5
-    2300010: pCylinder2_Cave
-    3300000: Cave_pPlane2
-    3300002: Cave_pSphere1
-    3300004: Cave_pSphere2
-    3300006: Cave_pSphere4
-    3300008: Cave_pSphere5
-    3300010: pCylinder2_Cave
-    4300000: Cave_pPlane2
-    4300002: Cave_pSphere1
-    4300004: Cave_pSphere2
-    4300006: Cave_pSphere4
-    4300008: Cave_pSphere5
-    4300010: pCylinder2_Cave
+    400002: pTorus5
+    2100000: pTorus5Mat
+    2300000: pTorus5
+    3300000: pTorus5
+    4300000: pTorus5
   externalObjects: {}
   materials:
     importMaterials: 1
