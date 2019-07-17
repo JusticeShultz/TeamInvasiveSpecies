@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyDart : MonoBehaviour
+public class enemyDart : MonoBehaviour
 {
     [SerializeField] float speed = 1;
     [SerializeField] float damage = 1;

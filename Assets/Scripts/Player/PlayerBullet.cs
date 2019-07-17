@@ -149,6 +149,7 @@ public class PlayerBullet : MonoBehaviour
 
         IsDead = false;
 
+        EffectsObject.SetActive(true);
         gameObject.SetActive(false);
     }
 }
