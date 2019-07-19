@@ -1,0 +1,37 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
+
+public class PlayerRotation : MonoBehaviour
+{
+    public SteamVR_Input_Sources rotateHand;
+    public SteamVR_Action_Vector2 joystickAction;
+    bool lastToggle = false;
+    Quaternion rotation;
+
+	void Update ()
+    {
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, 0.1f);
+
+        if (joystickAction.GetAxis(rotateHand).x == 0 && lastToggle)
+        {
+            lastToggle = false;
+        }
+
+        if (joystickAction.GetAxis(rotateHand).x > 0.01f && !lastToggle)
+        {
+            lastToggle = true;
+            rotation = Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0, 15, 0));
+        }
+        else
+        {
+            if (joystickAction.GetAxis(rotateHand).x < -0.01f && !lastToggle)
+            {
+                lastToggle = true;
+                rotation = Quaternion.Euler(transform.rotation.eulerAngles - new Vector3(0, 15, 0));
+            }
+        }
+	}
+}
